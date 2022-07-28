@@ -12,5 +12,3 @@ az deployment mg create --location "westeurope" --management-group-id "alz" --te
 CleanUp
 az deployment group create --resource-group alzcanary-westeurope-spoke-networking --template-file .\infra-as-code-custom\bicep\tests\empty.bicep --mode Complete
 az deployment group create --resource-group alzcanary-westeurope-hub-networking --template-file .\infra-as-code-custom\bicep\tests\empty.bicep --mode Complete
-
-TEST
